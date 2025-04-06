@@ -1,16 +1,39 @@
 import React from 'react';
 
-<h1> Open Ports & Weak Firewalls Configurations Guide </h1>
+
+
 
 function portconfig() {
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto', lineHeight: '1.8', fontSize: '16px' }}>
+      <h1> Open Ports & Weak Firewalls Configurations Guide </h1>
+
+      <p>Click one of the common router links below to open your router’s configuration page:</p>
+      
+      <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <li>
+          <a href="http://192.168.0.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.0.1
+          </a>
+        </li>
+        <li>
+          <a href="http://192.168.1.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.1.1
+          </a>
+        </li>
+        <li>
+          <a href="http://routerlogin.net" target="_blank" rel="noopener noreferrer">
+            http://routerlogin.net
+          </a>
+        </li>
+      </ul>
+
     <ol>
       <li>
         <strong>Navigate to the Firewall Settings</strong>
         <ul>
           <li>
-            On <a href="https://openwrt.org/" target="_blank" rel="noopener noreferrer"><strong>OpenWRT</strong></a>: Go to Network &gt; Firewall
+            On OpenWRT Go to Network &gt; Firewall
           </li>
           <li>
             On commercial routers: Go to Advanced Settings &gt; Security &gt; Firewall
@@ -75,6 +98,8 @@ function portconfig() {
     marginRight: 'auto',
     borderRadius: '10px',
     boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)'  // Optional: nice visual effect
+
+
 
     
   }}

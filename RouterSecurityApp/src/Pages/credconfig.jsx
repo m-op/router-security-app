@@ -5,10 +5,32 @@ function credconfig() {
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
       <h1>Default Credentails Guide</h1>
+
+      
       
       <p>Here is a basic set of instructions to mitigate Default Login Credentials Vulnerability on your router. This short guide will be supported by screenshots to help you navigate your router and change the configurations of your default login credentials of your router. </p>
       
       <h3>Steps to Change Your Router Password</h3>
+      <p>Click one of the common router links below to open your router’s configuration page:</p>
+      
+      <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <li>
+          <a href="http://192.168.0.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.0.1
+          </a>
+        </li>
+        <li>
+          <a href="http://192.168.1.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.1.1
+          </a>
+        </li>
+        <li>
+          <a href="http://routerlogin.net" target="_blank" rel="noopener noreferrer">
+            http://routerlogin.net
+          </a>
+        </li>
+      </ul>
+      
   <ol style={{paddingLeft: '20px', lineHeight: '1.8', fontSize: '16px'}}>
     <li>Find your Navigation Menu and open the <strong>“Administration/Admin”</strong> page</li>
     <li>Scroll down to the Password Section</li>

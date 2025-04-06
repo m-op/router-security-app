@@ -7,6 +7,26 @@ function weakconfig() {
 
 <h1> Weak Encryption Guide </h1>
 
+<p>Click one of the common router links below to open your router’s configuration page:</p>
+      
+      <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <li>
+          <a href="http://192.168.0.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.0.1
+          </a>
+        </li>
+        <li>
+          <a href="http://192.168.1.1" target="_blank" rel="noopener noreferrer">
+            http://192.168.1.1
+          </a>
+        </li>
+        <li>
+          <a href="http://routerlogin.net" target="_blank" rel="noopener noreferrer">
+            http://routerlogin.net
+          </a>
+        </li>
+      </ul>
+
       <ol style={{ paddingLeft: '20px', margin: 0 }}>
         <li style={{ marginBottom: '10px' }}>
           <strong>Navigate to the Firewall Settings</strong>
