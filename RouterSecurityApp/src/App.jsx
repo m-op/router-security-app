@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
 import Vulnerabilities from './Pages/Vulnerabilities';
-import SecurityGuide from './pages/SecurityGuide';
+import SecurityGuide from './Pages/SecurityGuide';
 import Checklist from './Pages/Checklist';
 import Credentials from './Pages/Credentials'; 
 import Credconfig from './Pages/credconfig'
