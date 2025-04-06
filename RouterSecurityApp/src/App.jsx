@@ -7,7 +7,7 @@ import SecurityGuide from './Pages/SecurityGuide';
 import Checklist from './Pages/Checklist';
 import Credentials from './Pages/Credentials'; 
 import Credconfig from './Pages/credconfig'
-import Portconfig from './Pages/portconfig'
+import Portconfig from './Pages/Portconfig'
 import Weakconfig from './Pages/Weakconfig'
 import Open from  './Pages/Open'
 import Weak from  './Pages/Weak'
